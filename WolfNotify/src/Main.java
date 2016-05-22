@@ -266,6 +266,8 @@ public class Main extends JFrame {
 				e2.printStackTrace();
 			}
 	}
+	
+	
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
     	UIManager.setLookAndFeel("com.jtattoo.plaf.hifi.HiFiLookAndFeel");
     	panel = new JPanel();
